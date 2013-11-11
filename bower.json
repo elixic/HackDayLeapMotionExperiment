@@ -18,7 +18,8 @@
         "requirejs-text": "~2.0.10",
         "angular": "~1.0.8",
         "angular-ui-router": "~0.2.0",
-        "angular-carousel": "*"
+        "angular-carousel": "*",
+        "leapjs": "*"
     },
     "resolutions": {
         "angular": "~1.0.7"
