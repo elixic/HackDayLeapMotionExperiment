@@ -2,3 +2,6 @@
 *.idea
 *.log
 *~
+
+#Ignore Directories
+bower_components
