@@ -2,18 +2,30 @@
 	<head>
 		<title></title>
 		<style>
-			#sigma {
-				width: 100%;
-				height: 100%;
-				background-color: black;
+			#cursor {
+			  position: absolute;
+			  left: -1000px;
+			  top: -1000px;
+			  z-index: 1;
+			  width: 24px;
+			  height: 24px;
+			  background-color: #ffffff;
+			  border-radius: 6px; 
+			  -moz-border-radius: 6px; 
+			  -webkit-border-radius: 6px;
+			  border: 1px solid #ff0000; 
 			}
 		</style>
 	</head>
 	<body>
-		<!--<div id='sigma'></div>-->
+		<div id="cursor"></div>
+		<div id="popup"></div>
 		<script src="js/jquery-1.10.2.min.js"></script>	
 		<script src="js/three.min.js"></script>
+		<script src="js/leap.min.js"></script>
 		
+		<script src="js/LeapObjectControls.js"></script>
+		<script src="js/LeapCameraControls.js"></script>
 		<script src="js/OrbitControls.js"></script>
 		<script src="js/gon.js"></script>
 		<script src="js/demo.js"></script>
